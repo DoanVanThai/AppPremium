@@ -1,0 +1,13 @@
+/* File này có thể chứa các quy tắc cơ bản 
+cho trang web, bao gồm reset CSS 
+(để loại bỏ các kiểu mặc định của 
+trình duyệt) và các kiểu cho các 
+phần tử HTML cơ bản như body, h1, p, v.v. */
+.header{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 520;
+}
+body{
+    background-color: var(--primary-color);
+    font-family: var(--font-main);
+}

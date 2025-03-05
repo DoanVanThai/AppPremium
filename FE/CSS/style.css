@@ -1,0 +1,532 @@
+
+
+/* TODO: Start css header */
+.header .container-fluid .container_logo .inner-logo img{
+    width: 200px;
+    height: 100px;
+    margin-top: -10px;
+    object-fit: cover;
+    
+}
+.header .container-fluid .container_logo{
+    width: 300px;
+    margin-left: -90px;
+}
+.header {
+
+    height: 70px;
+    width: 100%;
+    background-color: var(--primary-color);
+}
+.header .container-fluid{
+    display: flex;
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
+    font-size: var(--font-size);
+    background-color: var(--primary-color);
+    max-height: 70px;
+    height: 100%;
+    justify-content: center;
+    color: black;
+}
+
+.header .container-fluid .container_feature .inner-feature{
+    display: flex;
+    height: 70px;
+    align-items: center;
+    justify-content: right;
+    text-align: center;
+}
+.header .container-fluid .container_feature{
+    max-width: 600px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.header .container-fluid .container_feature .feature{
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.header .container-fluid .container_feature .feature:first-child{
+    margin-left: 50px;
+}
+.header .container-fluid .container_feature .line{
+    width: 1px;
+    margin-top: -8px;
+    height: 40px;
+    margin-left: 15px;
+    background-color: var(--secondary-color);
+}
+.header .container-fluid .container_icon .inner-icon .line{
+    width: 0.5px;
+    margin-top: -8px;
+    height: 40px;
+    background-color: var(--secondary-color);
+}
+.header .container-fluid .container_feature .feature a{
+    color: var(--thirdry-color);
+}
+.header .container-fluid .container_login .login a{
+    color: var(--thirdry-color);
+    padding-left: 15px;
+}
+.header .container-fluid  .container_icon .inner-icon{
+    display: flex;
+    height: 70px;
+    align-items: center;
+    justify-content: center;
+}
+
+.header .container-fluid  .container_icon .inner-icon .icon{
+    padding-right: 20px;
+    margin-right: 15px;
+}
+.header .container-fluid  .container_icon .inner-icon .icon a i{
+    color: #EA99A2;
+}
+.header .container-fluid  .container_icon .inner-icon .icon a i:hover{
+    color: #be626d
+}
+.header .container-fluid  .container_icon .inner-icon .icon:nth-child(1){
+    margin-left: 20px;
+}
+.header .container-fluid .container_icon{
+    max-width: 150px;
+    width: 100%;
+}
+
+.header .container-fluid .container_login{
+    display: flex;
+    height: 70px;
+    align-items: center;
+    justify-content: right;
+}
+
+.header .container-fluid  .container_feature .inner-feature a:hover, 
+.container_login .inner-login .login a:hover{
+    color: #EA99A2;
+    text-decoration: none;
+}
+
+/* TODO: End header */
+
+/* TODO: Start css section one */
+.body_main .container-fluid{
+    width: 100%;
+    background-color: var(--primary-color);
+    padding: 0px;
+}
+.body_main .container-fluid .body__section__one .container_title{
+    display: block;
+    max-width: 500px;
+    width: 100%;
+    margin-top: 100px;
+}
+.body__section__one .container_title .body__title{
+    font-size: 48px;
+    font-weight: 700;
+    font-family: var(--font-main);
+}
+.body__section__one .container_title .body__text{
+    font-size: 20px;
+    max-width: 400px;
+    width: 100%;
+
+}
+.body__section__one .container__image img{
+    width: 700px;
+    height: 675px;
+    object-fit: cover;
+    padding-left: 50px;
+    margin-top: -50px;
+}
+
+.body__section__one {
+    background-image: var(  --primary-gradient);
+    max-height: 575px;
+    height: 100%;
+    justify-content: center;
+    display: flex;
+    
+}
+.body__section__one .container_title{
+    height: 575px;
+    align-items: center;
+    
+}
+.body__section__one .container_title .body__title{
+    margin-bottom: 20px;
+}
+.body__section__one .container_title .body__logo{
+    margin-top: 100px;
+    width: 250px;
+    height: 60px;
+    text-align: center;
+    align-items: center;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, #CBA4AE, #B4A4C6, #A8B9FC);
+}
+.body__section__one .container_title .body__logo a{
+    color: white;
+    border: none; 
+    font-size: 20px;
+    font-weight: 500;
+    position: relative;
+    top: 16px;
+    text-decoration: none;
+}
+.body_main{
+    width: 100vw;
+}
+/* TODO: End section one */
+
+/* TODO: Start css section two */
+.body__section__two .container{
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.body__section__two .container .img{
+    width: 451px;
+    height: 451px;
+}
+.body__section__two .container .container_title .body__title{
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    font-family: var(--font-main);
+}
+.body__section__two .container .container_title{
+    margin-left: -70px;
+    width: 600px;
+}
+
+.body__section__two .container .container_title .body__text .text{
+    margin-bottom: 30px;
+    font-size: 18px;
+    font-family: var(--font-main);
+}
+.body__section__two .container .container_title .body__highlight{
+    font-size: 16px;
+    font-weight: 600;
+}
+.body__section__two .container .container_title .body__highlight i{
+    margin-right: 10px;
+    color: var(--button-gradient);
+}
+/* TODO: End section two */
+
+/* TODO: Start css section three */
+.body__section__three .container{
+    padding: 50px 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+ }
+ .body__section__three {
+    margin-bottom: 30px;
+    background-image: linear-gradient(to right, #C794A0, #75D7ED, #66B2EE, #C5F0FF);;
+ }
+ .body__section__three .container .title{
+    font-size: 64px;
+    color: white;
+    font-weight: 700;
+ }
+ .body__section__three .container .number-detail{
+    font-size: 20px;
+    color: white;
+ }
+/* TODO: End css section three */
+
+/* TODO: Start css section four */
+    .body__section__four {
+        margin-bottom: 100px;
+        color: white;
+    }
+    .body__section__four .text-title{
+        font-size: 48px;
+        color: black;
+        text-align: center;
+        font-weight: 600;
+    }
+    .body__section__four .title{
+        text-align: center;
+        margin-top: 30px;
+        width: 491px;
+        height: 322px;
+        padding: 30px 70px;
+    }
+    .body__section__four .title-bottom{
+        text-align: center;
+        width: 491px;
+        height: 322px;
+        padding: 30px 70px;
+    }
+    .body__section__four .title .title-main{
+        font-size: 30px;
+        font-weight: 700;
+        margin-top: 70px;
+    }
+    .body__section__four .title-bottom .title-main{
+        font-size: 30px;
+        margin-top: 70px;
+        font-weight: 700;
+    }
+    .body__section__four .title-bottom .text{
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .body__section__four .title .text{
+        font-size: 20px;
+        font-weight: 600;        
+    }
+    .body__section__four .row{
+        margin-left: 100px;
+    }
+    .body__section__four .title:nth-child(1){
+        width: 491px;
+        height: 322px;
+        background: url('../HTML/img/index/img_entertainment.png') no-repeat;
+        background-size: cover;
+        transition: filter 0.3s ease;
+    }
+    .body__section__four .title:nth-child(2){
+        width: 491px;
+        height: 322px;
+        background: url('../HTML/img/index/img_work.png') no-repeat;
+        background-size: cover;
+        transition: filter 0.3s ease;
+    }
+    .body__section__four .title-bottom:nth-child(1){
+        width: 491px;
+        height: 322px;
+        background: url('../HTML/img/index/img_study.png') no-repeat;
+        background-size: cover;
+        transition: filter 0.3s ease;
+    }
+    .body__section__four .title-bottom:nth-child(2){
+        width: 491px;
+        height: 322px;
+        background: url('../HTML/img/index/img_design.png') no-repeat;
+        background-size: cover;
+        transition: filter 0.3s ease;
+    }
+    .body__section__four .title-public:hover::after{
+        background: rgba(0, 0, 0, 0.5);
+    }
+    .body__section__four .title-public::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(0, 0, 0, 0); 
+        transition: background 0.3s ease; 
+        z-index: 1; 
+    }
+    .body__section__four .title-public .content{
+        position: relative; 
+        z-index: 2; 
+        color: white; 
+        opacity: 0; 
+        transition: opacity 0.3s ease;
+    }
+    .body__section__four .title-public:hover .content{
+        opacity: 1;
+    }
+    .body__section__four .title-bottom img {
+        transition: opacity 0.3s ease; /* Smooth transition */
+    }
+
+/* TODO: End css section four */
+
+/* TODO: Start css section five */
+
+.body__section__five .container .title-commit .commit{
+    font-size: 48px;
+    font-family: "Inter", sans-serif;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.body__section__five .container .row .container-commit .img-commit img{
+    width: 200px;
+    height: 200px;
+    justify-content: center;
+    object-fit: cover;
+}
+.body__section__five .container .row .container-commit .img-commit{
+    text-align: center;
+}
+.body__section__five .container .row .container-commit .title-main-commit{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+    padding: 0px 0px;
+}
+.body__section__five .container .row .container-commit .content-commit{
+    font-size: 20px;
+    text-align: center;
+}
+.body__section__five .container .row .container-commit {
+    width: 260px;
+    height: 500px;
+    background-color: #FFFF;
+    margin-bottom: 50px;
+    padding-left: 15px;
+    border-radius: 30px;
+    padding-right: 15px;
+    font-family: var(--font-main);
+    padding-top: 20px;
+    box-shadow: 0.5px 0.5px 10px rgba(167, 165, 165, 0.5), -0.5px -0.5px 10px rgba(0, 0, 0, 0.5);
+}
+/* TODO: End css section five */
+
+/* TODO: Start css container near end */
+.body__section__six .container-support{
+    width: 1030px;
+    height: 230px;
+    background-image: linear-gradient(to right, #CBA4AE, #B4A4C6, #A8B9FC);
+    padding: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    border-radius: 30px;
+    top: 50px
+}
+.body__section__six .container-support .title-support{
+    font-size: 30px;
+    font-weight: 600;
+}
+.body__section__six .container-support .content-support{
+    font-size: 20px;
+    font-weight: 500;
+    margin: 15px 0px 15px 0px;
+    font-family: var(--font-main);
+}
+.body__section__six .container-support .contact{
+    background-color: white;
+    width: 120px;
+    font-size: 20px;
+    text-align: center;
+    padding: 7px 6px;
+    font-weight: 600;
+    border-radius: 10px;
+    box-shadow: 0.5px 0.5px 10px rgba(158, 155, 155, 0.5), -0.5px -0.5px 10px rgba(0, 0, 0, 0.5);
+}
+.body__section__six .container-support .contact a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+/* TODO: End css container near end */
+
+/* TODO: Start css footer*/
+.footer-web .box__footer{
+    padding-top: 70px;
+    background-color: white;
+} 
+.footer-web{
+    height: 400px;
+    background-color: var(--primary-color);
+}
+.footer-web .footer__end{
+    margin-top: 8px;
+    font-size: 18px;
+}
+.footer-web .footer__end span{
+    font-weight: 700;
+}
+.box__footer .row .box__one .box__logo img{
+    width: 1000px;
+}
+.box__footer .row .box__one .box__logo img{
+    width: 300px;
+    height: 100px;
+    object-fit: cover;
+    position: relative;
+    right: 50px;
+    /* top: -80px; */
+}
+.footer-web .box__footer .container .box__one .slogan--web{
+    font-size: 20px;
+    font-weight: 200;
+    color: #000000;
+    margin-bottom: 20px;
+    font-family: var(--font-main);
+}
+
+.footer-web .box__footer .container .box__two .box__title{
+    font-size: 24px;
+    padding-top: 15px;
+    font-weight: 600;
+    padding-bottom: 55px;
+}
+.footer-web .box__footer .container .box__two .box__list .item__content{
+    display: flex;
+    font-size: 20px;
+    font-family: var(--font-main);
+}
+.footer-web .box__footer .container .box__two .box__list .item__content .box__item__one:nth-child(1){
+    margin-right: 10px;
+}
+.footer-web .box__footer .container .box__two .box__list .item__content .box__item__one .icon{
+    margin-bottom: 20px;
+}
+.footer-web .box__footer .container .box__two .fa-solid{
+    margin-right: 15px;
+}
+.footer-web .box__footer .container .box__two .line{
+    width: 150px;
+    height: 0.5px;
+    opacity: 0.5;
+    content: '';
+    position: relative;
+    bottom: 20px;
+    background-color: #000000;
+}
+.footer-web .box__footer .container .box__list .contact{
+    margin-bottom: 20px;
+}
+.footer-web .container-fluid{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+/* TODO: End css footer*/
+.cart-step .cart-step__box{
+    display: flex;
+    font-family: var(--font-main);
+    margin-top: 50px;
+    font-size: 25px;
+    justify-content: center;
+}
+.cart-step .cart-step__box .cart-step__number{
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+
+}
+
+.cart-step .cart-step__box .cart-step__number .cart-step__number--background .background{
+    content: '';
+    background-color: yellowgreen;
+    width: 35px;
+    height: 35px;
+    position: relative;
+    border-radius: 50%;
+    top: 2px;
+    left: 22px;
+    z-index: -4;
+}
+
+.cart-step .cart-step__box .cart-step__number .cart-step__number--background {
+    display: flex;
+}
+.cart-step .cart-step__box .cart-step__number .cart-step__number--background span{
+    margin-right: 15px;
+}
+/* TODO:  */

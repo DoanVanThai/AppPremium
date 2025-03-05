@@ -1,0 +1,21 @@
+/* File này dùng để định kiểu cho
+các thành phần giao diện cụ thể như nút,
+thanh điều hướng, form, modal, v.v. 
+Mỗi thành phần có thể được chia thành
+các file riêng biệt để dễ dàng quản 
+lý và tái sử dụng. */
+
+:root {
+    --primary-color: #fcebeb;  /* Màu chính */
+    --secondary-color: #C2C2C2;
+    --text-color: #000000; /* Màu phụ */
+    --font-size: 16px;         /* Kích thước chữ */
+    --thidry-color: #EA99A2;
+    --color-dark: #CAF0FD;
+    --color-light: #EFECFB;
+    --font-main: "Montserrat", sans-serif;
+    --secondary-gradient: linear-gradient(to right, #ff416c, #ff4b2b);
+    --primary-gradient: linear-gradient(to bottom, #7eddfd, #EFECFB);
+    --dark-gradient: linear-gradient(to right, #232526, #414345);
+    --button-gradient: linear-gradient(to right, #CBA4AE, #B4A4C6, #A8B9FC);
+  }

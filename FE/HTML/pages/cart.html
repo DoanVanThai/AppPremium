@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+</head>
+<body>
+    <div id="header-container"></div>
+
+    <script>
+        fetch('../components/header.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('header-container').innerHTML = data;
+            });
+    </script>
+    <div class="container cart-step">
+        <div class="cart-step__box">
+            <div class="cart-step__number cart-step__number--active">
+                <div class="cart-step__number--background"> <div class="background"></div> <span>1</span></div> 
+                <div class="cart-step__text">
+                    Giỏ hàng
+                </div>
+            </div>
+            <div class="cart-step__number cart-step__number--active">
+                <div class="cart-step__number--background"> <div class="background"></div> <span>2</span></div> 
+                <div class="cart-step__text">
+                    Giỏ hàng
+                </div>
+            </div>
+            <div class="cart-step__number cart-step__number--active">
+                <div class="cart-step__number--background"><div class="background"></div><span>3</span></div> 
+                <div class="cart-step__text">
+                    Giỏ hàng
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="cart-item">
+        <div class="container">
+        <div class="row">
+          
+        </div>
+    </div>
+    </div>
+    
+</body>
+</html>
